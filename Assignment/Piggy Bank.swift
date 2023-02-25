@@ -15,10 +15,10 @@ var soles = Double(readLine()!)!
 
 var total: Double
 
-//Pesos conversion rate: 0.00021
+//Pesos conversion rate: 0.00020
 //Reais conversion rate: 0.19
 //Soles conversion rate: 0.26
-total = 0.00021 * pesos + 0.19 * reais + 0.26 * soles
+total = 0.00020 * pesos + 0.19 * reais + 0.26 * soles
 
 //Output
 print("US Dollars = $\(total)")
